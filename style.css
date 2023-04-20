@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.blue-bg{
+    background-color: #0084fd;
+}
+
+.lightblue-bg{
+    background-color: #b5ddff;
+}
+
+.purple-bg{
+    background-color: #9792e4;
+}
+
+.black-bg{
+    background-color: #333333;
+}
+
+.yellow-text{
+    color: #fdc15f;
+}

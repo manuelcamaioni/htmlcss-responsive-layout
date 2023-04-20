@@ -127,6 +127,17 @@ section{
     width: 100%;
 }
 
+.sixth-section{
+    margin-bottom: 0;
+}
+
+.info-box{
+    height: 300px;
+}
+
+.info-footer{
+    height: 300px;
+}
 
 
 @media screen and (min-width: 480px){

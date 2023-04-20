@@ -50,8 +50,36 @@ section{
     
 }
 
-.nav-bar div{
-    border: 2px solid red;
+.nav-items{
+    padding: 1rem 0;
+}
+
+#nav-logo{
+    align-items: center;
+}
+
+.nav-items ul{
+    list-style-type: none;
+}
+
+.nav-items a{
+   text-decoration: none;
+   color: white;
+}
+
+.nav-items button a{
+    color: #333333;
+}
+
+.nav-items button{
+    padding: .2rem .5rem;
+    background-color: white;
+    border: none;
+    border-radius: 11px;
+}
+
+.nav-items li{
+    margin-left: 2rem;
 }
 
 

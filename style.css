@@ -16,6 +16,15 @@ section{
     margin: 5% 0;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    border: none;
+}
+
 .relative{
     position: relative;
 }
@@ -46,9 +55,8 @@ section{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    border: 2px solid black;
 }
 
 .highlight{
@@ -72,10 +80,6 @@ section{
     visibility: hidden;
 }
 
-.nav-items a{
-   text-decoration: none;
-   color: white;
-}
 
 .nav-items button a{
     color: #333333;
@@ -95,7 +99,7 @@ section{
     height: 100%;
 }
 
-.icon-box{
+.nav-icon-box{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -113,30 +117,72 @@ section{
 .flex-wrapper{
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
-    flex-direction: column;
     margin: 5% 0;
 }
 
 .bigger-col{
     width: 100%;
-    height: 300px;
+    /* height: 450px; */
     margin-bottom: 1rem;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 0 1rem;
 }
 
 .col{
     width: 100%;
-    height: 300px;
+    /* height: 450px; */
     margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
+.image-phone-container, .demo-description{
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.image-phone-container{
+    margin-top: 2rem;
+}
+
+.first-section img{
+    width: 60%;
+} 
+
+.short-description, .icon-box{
+    text-align: center;
+}
+
+.icon-box, .first-section h1{
+    color: #0084fd;
+    padding: 1rem 0;
+}
+
+div.icon-box{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.first-section p{
+    line-height: 1.5rem;
+    padding: 0 0 2rem 0;
+}
+
+.bigger-col button{
+    background-color: #0084fd;
+    padding: .7rem 2.5rem;
+    border-radius: 1rem;
+}
 
 
 /************* SECOND SECTION RULES *************/
 
 .container-2{
-    width: 100%;
+    width: 90%;
     flex-direction: column;
 }
 
@@ -192,10 +238,6 @@ section{
 
 @media screen and (min-width: 480px){
 
-    .container{
-            width: 100%;
-            margin: 0 auto;
-    }
     .flex-wrapper{
         flex-direction: row;
         justify-content: space-between;
@@ -203,19 +245,29 @@ section{
 
     .bigger-col{
         width: calc(100% / 3 * 2);
-        height: 300px;
+        /* height: 300px; */
         margin-bottom: 1rem;
+        
+    }
+    
+    .col{
+        width: calc(100% / 3 - 1rem);
+        /* height: 300px; */
+        margin-bottom: 0;
     }
 
     .first-section .col:nth-child(2){
         margin-bottom: 1rem;
     }
     
-    .col{
-        width: calc(100% / 3 - 1rem);
-        height: 300px;
-        margin-bottom: 0;
+    .first-section p{
+        padding-bottom: 0;
     }
+
+    .bigger-col p{
+        padding-bottom: 1rem;
+    }
+    
 
     .fifth-section .container{
         flex-direction: column;
@@ -223,28 +275,26 @@ section{
 }
 
 @media screen and (min-width: 768px){
-    .container{
-        width: 1200px;
-        margin: 0 auto;
-    }
 
     .nav-bar ul{
         visibility: visible;
     }
 
-    .nav-bar .icon-box{
+    .nav-bar .nav-icon-box{
         visibility: hidden;
     }
 
     .flex-wrapper{
         flex-direction: row;
         justify-content: space-between;
+        
         }
 
     .bigger-col{
         width: calc(100% / 3 * 2);
-        height: 300px;
+        /* height: 300px; */
         margin-bottom: 1rem;
+        flex-direction: row;
         }
 
     .first-section .col:nth-child(2){
@@ -253,12 +303,12 @@ section{
 
     .col{
         width: calc(100% / 3 - 1rem);
-        height: 300px;
+        /* height: 300px; */
         margin-bottom: 0;
         }
 
         .container-2{
-            width: 1000px;
+            width: 80%;
             margin: 0 auto;
             flex-direction: row;
         }
@@ -268,7 +318,7 @@ section{
         }
 
         .third-section .container{
-            width: 1200px;
+            width: 90%;
             margin: 0 auto;
         }
         

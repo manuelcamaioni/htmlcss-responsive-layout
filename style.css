@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+section{
+    margin: 5% 0;
+}
+
+
 .blue-bg{
     background-color: #0084fd;
 }
@@ -111,6 +116,13 @@
     flex-direction: column;
     margin: 5% 0;;
 }
+
+.fourth-section .col{
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+
 
 @media screen and (min-width: 480px){
 

@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 1.1rem;
+}
+
+button.flex a{
+    font-size: 1.1rem;
+}
+
 section{
     margin: 5% 0;
+}
+
+.relative{
+    position: relative;
 }
 
 
@@ -40,18 +52,14 @@ section{
 }
 
 .highlight{
-    border: 2px solid red
+    border: 2px solid red;
 }
 
 /* HEADER RULES */
 
 .nav-bar{
     justify-content: space-between;
-    
-}
-
-.nav-items{
-    padding: 1rem 0;
+    padding: 0 1rem;
 }
 
 #nav-logo{
@@ -60,6 +68,8 @@ section{
 
 .nav-items ul{
     list-style-type: none;
+    height: 100%;
+    visibility: hidden;
 }
 
 .nav-items a{
@@ -72,16 +82,27 @@ section{
 }
 
 .nav-items button{
-    padding: .2rem .5rem;
     background-color: white;
     border: none;
-    border-radius: 11px;
+    border-radius: 13px;
+    padding: .4rem 1rem;
+    margin: 1rem 0;
 }
 
 .nav-items li{
     margin-left: 2rem;
+    align-items: center;
+    height: 100%;
 }
 
+.icon-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 2%;
+    align-items: center;
+    color: white;
+}
 
 /*******************************************************
             MAIN RULES
@@ -207,42 +228,50 @@ section{
         margin: 0 auto;
     }
 
-.flex-wrapper{
-    flex-direction: row;
-    justify-content: space-between;
+    .nav-bar ul{
+        visibility: visible;
     }
 
-.bigger-col{
-    width: calc(100% / 3 * 2);
-    height: 300px;
-    margin-bottom: 1rem;
+    .nav-bar .icon-box{
+        visibility: hidden;
     }
 
-.first-section .col:nth-child(2){
-    margin-bottom: 1rem;
-    }
-
-.col{
-    width: calc(100% / 3 - 1rem);
-    height: 300px;
-    margin-bottom: 0;
-    }
-
-    .container-2{
-        width: 1000px;
-        margin: 0 auto;
+    .flex-wrapper{
         flex-direction: row;
-    }
+        justify-content: space-between;
+        }
 
-    .second-section{
-        margin: 5% 0;
-    }
+    .bigger-col{
+        width: calc(100% / 3 * 2);
+        height: 300px;
+        margin-bottom: 1rem;
+        }
 
-    .third-section .container{
-        width: 1200px;
-        margin: 0 auto;
-    }
-    
+    .first-section .col:nth-child(2){
+        margin-bottom: 1rem;
+        }
+
+    .col{
+        width: calc(100% / 3 - 1rem);
+        height: 300px;
+        margin-bottom: 0;
+        }
+
+        .container-2{
+            width: 1000px;
+            margin: 0 auto;
+            flex-direction: row;
+        }
+
+        .second-section{
+            margin: 5% 0;
+        }
+
+        .third-section .container{
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
 }
 
 

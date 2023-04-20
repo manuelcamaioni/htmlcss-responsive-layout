@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
     <title>Responsive layout</title>
@@ -12,22 +13,26 @@
 <body>
     <header>
         <nav class="blue-bg">
-            <div class="container">
+            <div class="container relative">
                 <div class="nav-bar flex">
                     <div id="nav-logo" class="flex">
                         <img src="img/logo.png" alt="Immagine del logo">
                     </div>
                     <div class="nav-items">
                        <ul class="flex">
-                            <li><a href="#">Planning</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li>
-                                <button><a href="#">Get started</a></button>
+                            <li class="flex"><a href="#">Planning</a></li>
+                            <li class="flex"><a href="#">Testimonials</a></li>
+                            <li class="flex"><a href="#">Features</a></li>
+                            <li class="flex"><a href="#">About us</a></li>
+                            <li class="flex">
+                                <button class="flex"><a href="#">Get started</a></button>
                             </li>
                        </ul>
+                        
                     </div>
+                    <div class="icon-box flex">
+                        <i class="fa-solid fa-bars fa-xl"></i>
+                    </div>  
                 </div>
             </div>
         </nav>
@@ -60,6 +65,16 @@
                 </div>
             </div>
         </section>
+
+
+
+
+
+
+
+
+
+
 
         <section class="second-section purple-bg">
              <div class="container-2 flex">

@@ -241,6 +241,7 @@ div.icon-box{
 .text-box h1{
     color: #9792e4;
     margin: 1rem;
+    font-size: 3rem;
 }
 
 .user-label{
@@ -598,6 +599,16 @@ h1.number{
 
     .second-section{
             margin: 5% 0;
+    }
+
+    .first-item{
+        width: calc(60% - .5rem);
+    }
+
+    .second-item{
+        width: calc(40% - .5rem);
+        align-self: flex-end;
+        margin-left: 1rem;
     }
 
     .third-section .container{

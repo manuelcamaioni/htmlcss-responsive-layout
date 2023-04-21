@@ -278,10 +278,55 @@ div.icon-box{
 
 /************* FOURTH SECTION RULES *************/
 
-.fourth-section .col{
+.fourth-section div.col{
     background-color: white;
     margin-bottom: 1rem;
+    width: 100%;
 }
+
+.fourth-section h1{
+    text-align: center;
+    color: white;
+}
+
+.fourth-section .container{
+    padding: 1rem 0;
+}
+
+.white-col{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left; 
+}
+
+.white-col h2{
+    margin: 1rem 0;
+    color: #9792e4;
+}
+
+.white-col p{
+    line-height: 1.5rem;
+}
+
+.white-col button{
+    background-color: #9792e4;
+    padding: .5rem 1.5rem;
+    margin: 1rem 0;
+    color: white;
+    border-radius: 1rem;
+}
+
+h1.number{
+    text-align: left;
+    font-size: 2.5rem;
+    color: #9792e4;
+}
+
+
+/************* FIFTH SECTION RULES *************/
 
 .fifth-section .description-box, .user-quote{
     height: 300px;
@@ -341,6 +386,18 @@ div.icon-box{
         text-align: left;
         margin: 0 1rem;
     }
+
+    .fourth-section .flex-wrapper{
+        flex-direction: row;
+    }
+
+    .white-col{
+        width: calc(100% / 2 - 2rem);
+    }
+
+    .white-col h1, .white-col h2{
+        color: #9792e4;
+    }
     
 
     .fifth-section .container{
@@ -381,20 +438,24 @@ div.icon-box{
         margin-bottom: 0;
         }
 
-        .container-2{
+    .container-2{
             width: 80%;
             margin: 0 auto;
             flex-direction: row;
-        }
+    }
 
-        .second-section{
+    .second-section{
             margin: 5% 0;
-        }
+    }
 
-        .third-section .container{
+    .third-section .container{
             width: 90%;
             margin: 0 auto;
-        }
+    }
+
+    .white-col{
+            width: calc(100% / 3 - 2rem);
+    }
         
 }
 

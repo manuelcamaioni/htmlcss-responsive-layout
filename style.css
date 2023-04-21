@@ -21,6 +21,10 @@ button{
     position: relative;
 }
 
+.absolute{
+    position: absolute;
+}
+
 
 .blue-bg{
     background-color: #0084fd;
@@ -98,7 +102,7 @@ button{
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 2%;
+    right: 0;
     align-items: center;
     color: white;
 }
@@ -327,6 +331,10 @@ div.icon-box{
     border-radius: 1rem;
 }
 
+.font-lg{
+    font-size: 10rem;
+}
+
 h1.number{
     text-align: left;
     font-size: 2.5rem;
@@ -369,6 +377,15 @@ h1.number{
     flex-direction: column;
     align-items: start;
 }
+
+
+.employee-image-container i{
+    top: 0;
+    right: -24%;
+    color: #9792e4;
+    font-size: 6rem;
+}
+
 
 .employee-quote p{
     margin: 1rem 0;
@@ -539,6 +556,7 @@ h1.number{
         padding: 1rem 0 0 1rem;
     }
 
+}
 @media screen and (min-width: 768px){
 
     .nav-bar ul{
@@ -593,6 +611,3 @@ h1.number{
         
 }
 
-
-
-}

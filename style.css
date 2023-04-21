@@ -40,6 +40,9 @@ button{
 
 .yellow-text{
     color: #fdc15f;
+    font-size: 5rem;
+    margin: 1.5rem 0;
+    font-weight: bolder;
 }
 
 .flex{
@@ -377,14 +380,57 @@ h1.number{
     border-radius: 1rem;
 }
 
-/************* FIFTH SECTION RULES *************/
+/************* SIXTH SECTION RULES *************/
 
 .sixth-section{
     margin-bottom: 0;
 }
 
 .info-box{
-    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.info-box h1{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.info-box h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.info-box p{
+    margin: 0 2rem 1rem;
+}
+
+.info-box button{
+    background-color: white;
+    padding: .5rem 2rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.info-box button a{
+    color: #9792e4;
+    font-size: 1.2rem;
+}
+
+.info-box ul{
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.info-box ul li{
+    margin: 0 .6rem;
+}
+
+.info-box ul :first-child{
+    list-style-type: none;
 }
 
 .info-footer{

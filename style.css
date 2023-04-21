@@ -219,7 +219,7 @@ div.icon-box{
 
 .second-item i{
     color: #9792e4;
-    padding: 2rem 0;
+    padding: 3rem 0 0;
 }
 
 .image-box img{
@@ -293,6 +293,11 @@ div.icon-box{
 }
 
 .fourth-section .container{
+    padding: 1rem 0;
+}
+
+.title{
+    font-size: 2rem;
     padding: 1rem 0;
 }
 
@@ -430,7 +435,7 @@ h1.number{
 }
 
 .info-box ul li{
-    padding: 0 .6rem;
+    margin: 0 .6rem;
 }
 
 .info-box ul :first-child{
@@ -498,6 +503,10 @@ h1.number{
     .description-box{
         text-align: left;
         margin: 0 1rem;
+    }
+
+    div.description-box2{
+        text-align: center;
     }
 
     .fourth-section .flex-wrapper{

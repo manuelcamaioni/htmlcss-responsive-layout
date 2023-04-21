@@ -227,14 +227,45 @@ div.icon-box{
 
 .text-box{
     width: calc(100% - 2rem);
-    height: 200px;
+    text-align: center;
+    margin: 1rem;
+}
+
+.text-box h1{
+    color: #9792e4;
     margin: 1rem;
 }
 
 .user-label{
     width: calc(100% - 2rem);
-    height: 300px;
     margin: 1rem;
+    border-radius: 1rem;
+    color: white;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-box{
+    text-align: center;
+}
+
+.user-label q{
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+
+.quote-author{
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.user-label img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem 0;
 }
 
 .third-section .container{
@@ -244,6 +275,8 @@ div.icon-box{
     margin: 5% auto;
 
 }
+
+/************* FOURTH SECTION RULES *************/
 
 .fourth-section .col{
     background-color: white;
@@ -298,6 +331,15 @@ div.icon-box{
 
     .bigger-col p{
         padding-bottom: 1rem;
+    }
+
+    .user-label{
+        flex-direction: row;
+    }
+
+    .description-box{
+        text-align: left;
+        margin: 0 1rem;
     }
     
 

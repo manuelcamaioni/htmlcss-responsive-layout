@@ -392,7 +392,7 @@ h1.number{
 }
 
 .info-box h1{
-    margin: 1rem 0;
+    padding: 1rem 0;
     font-size: 1.3rem;
     font-weight: normal;
     text-transform: uppercase;
@@ -401,11 +401,15 @@ h1.number{
 .info-box h2{
     font-size: 2rem;
     font-weight: bold;
-    margin: 1rem 0;
+    padding: 1rem 0;
 }
 
 .info-box p{
-    margin: 0 2rem 1rem;
+    padding: 0 2rem 1rem;
+}
+
+.info-box .info-version{
+    font-size: 1.2rem;
 }
 
 .info-box button{
@@ -422,19 +426,36 @@ h1.number{
 
 .info-box ul{
     justify-content: center;
-    margin: 2rem 0;
+    padding: 2rem 0;
 }
 
 .info-box ul li{
-    margin: 0 .6rem;
+    padding: 0 .6rem;
 }
 
 .info-box ul :first-child{
     list-style-type: none;
 }
 
+
+/************* FOOTER RULES *************/
+
 .info-footer{
-    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.info-footer a{
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+.info-footer > p:first-child{
+    padding: 2rem 0;
+}
+
+.careers{
+    padding-bottom: 1rem;
 }
 
 
